@@ -329,6 +329,8 @@ module.exports = function (webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        '@shared': path.resolve(paths.appPath, 'src/webgl/scenes/shared'),
+        '@kindeo': path.resolve(paths.appPath, 'src/webgl/scenes/kindeo'),
       },
       plugins: [
         // Prevents users from importing files from outside of src/ (or node_modules/).

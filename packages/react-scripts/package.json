@@ -1,6 +1,6 @@
 {
   "name": "@andykindeo/react-scripts",
-  "version": "5.0.1",
+  "version": "5.0.1-kindeo",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
